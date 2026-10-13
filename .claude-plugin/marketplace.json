@@ -1,0 +1,29 @@
+{
+  "name": "claude-skill-dap",
+  "owner": {
+    "name": "kaleb4b"
+  },
+  "metadata": {
+    "description": "Claude Code skills: ponytail and frontend-design."
+  },
+  "plugins": [
+    {
+      "name": "ponytail",
+      "description": "Lazy senior dev mode: the smallest change that fully solves the task.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/ponytail"
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "description": "Distinctive, intentional visual design for new or reshaped UI.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/frontend-design"
+      ]
+    }
+  ]
+}
