@@ -4,7 +4,7 @@
     "name": "kaleb4b"
   },
   "metadata": {
-    "description": "Claude Code skills: ponytail and frontend-design."
+    "description": "Claude Code skills: ponytail, frontend-design and web-design-guidelines."
   },
   "plugins": [
     {
@@ -23,6 +23,15 @@
       "strict": false,
       "skills": [
         "./.claude/skills/frontend-design"
+      ]
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code against Vercel's Web Interface Guidelines.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/web-design-guidelines"
       ]
     }
   ]
