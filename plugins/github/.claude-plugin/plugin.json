@@ -1,0 +1,20 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "GitHub's official MCP server: repositories, issues, pull requests, reviews, Actions and code search.",
+  "author": {
+    "name": "GitHub",
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/github/github-mcp-server",
+  "repository": "https://github.com/github/github-mcp-server",
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "issues",
+    "pull-requests",
+    "code-search",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+}

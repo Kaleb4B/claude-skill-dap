@@ -4,7 +4,7 @@
     "name": "kaleb4b"
   },
   "metadata": {
-    "description": "Claude Code skills: ponytail, frontend-design and web-design-guidelines."
+    "description": "Claude Code skills (ponytail, frontend-design, web-design-guidelines, security-audit) and MCP servers (Context7, Playwright, GitHub)."
   },
   "plugins": [
     {
@@ -33,6 +33,30 @@
       "skills": [
         "./.claude/skills/web-design-guidelines"
       ]
+    },
+    {
+      "name": "security-audit",
+      "description": "Cloudflare's multi-phase security audit skill (cloudflare/security-audit-skill, MIT) for repos you own.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/security-audit"
+      ]
+    },
+    {
+      "name": "context7",
+      "description": "Context7 MCP server (upstash/context7, MIT): up-to-date, version-specific library docs.",
+      "source": "./plugins/context7"
+    },
+    {
+      "name": "playwright",
+      "description": "Playwright MCP server (microsoft/playwright-mcp, Apache-2.0): drive a real browser from Claude.",
+      "source": "./plugins/playwright"
+    },
+    {
+      "name": "github",
+      "description": "GitHub MCP server (github/github-mcp-server, MIT): repos, issues, PRs and Actions. Needs GITHUB_PERSONAL_ACCESS_TOKEN.",
+      "source": "./plugins/github"
     }
   ]
 }
