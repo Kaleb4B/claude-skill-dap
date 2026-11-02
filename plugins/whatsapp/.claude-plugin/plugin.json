@@ -1,0 +1,10 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "WhatsApp MCP server (lharries/whatsapp-mcp): search and read your messages and contacts, and send messages and files. Needs the local Go bridge running.",
+  "author": { "name": "Luke Harries", "url": "https://github.com/lharries" },
+  "homepage": "https://github.com/lharries/whatsapp-mcp",
+  "repository": "https://github.com/lharries/whatsapp-mcp",
+  "license": "MIT",
+  "keywords": ["whatsapp", "messaging", "mcp"]
+}
