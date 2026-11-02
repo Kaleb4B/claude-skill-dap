@@ -1,6 +1,6 @@
 # claude-skill-dap
 
-Claude Code skills: frontend-design (Anthropic, from anthropics/claude-code), ponytail (DietrichGebert/ponytail, MIT), web-design-guidelines (vercel-labs/agent-skills, MIT), plus MCP servers Context7 (upstash/context7, MIT), Playwright (microsoft/playwright-mcp, Apache-2.0) and GitHub (github/github-mcp-server, MIT).
+Claude Code skills: frontend-design (Anthropic, from anthropics/claude-code), ponytail (DietrichGebert/ponytail, MIT), web-design-guidelines (vercel-labs/agent-skills, MIT), security-audit (cloudflare/security-audit-skill, MIT), plus MCP servers Context7 (upstash/context7, MIT), Playwright (microsoft/playwright-mcp, Apache-2.0) and GitHub (github/github-mcp-server, MIT).
 
 ## Install
 
@@ -10,6 +10,7 @@ In Claude Code:
 /plugin install ponytail --marketplace Kaleb4B/claude-skill-dap
 /plugin install frontend-design --marketplace Kaleb4B/claude-skill-dap
 /plugin install web-design-guidelines --marketplace Kaleb4B/claude-skill-dap
+/plugin install security-audit --marketplace Kaleb4B/claude-skill-dap
 /plugin install context7 --marketplace Kaleb4B/claude-skill-dap
 /plugin install playwright --marketplace Kaleb4B/claude-skill-dap
 /plugin install github --marketplace Kaleb4B/claude-skill-dap
@@ -39,3 +40,7 @@ export GITHUB_PERSONAL_ACCESS_TOKEN=github_pat_...
 ```
 
 Create the token at https://github.com/settings/personal-access-tokens/new and grant only the repositories and permissions you need. Never commit it.
+
+## Security audit
+
+The `security-audit` skill runs a six-phase audit of the current repository: reconnaissance, coverage-led hunting, candidate validation, structured `findings.json`, independent verification, and a final `REPORT.md`. Ask Claude to "run a security audit on this repo". It spawns many subagents, so a full run takes a while and uses a lot of tokens. The bundled validators need Node.js. Only audit code you own or are authorized to test.
