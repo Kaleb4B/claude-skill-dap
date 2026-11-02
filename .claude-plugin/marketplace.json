@@ -4,7 +4,7 @@
     "name": "kaleb4b"
   },
   "metadata": {
-    "description": "Claude Code skills: ponytail, frontend-design and web-design-guidelines."
+    "description": "Claude Code skills: ponytail, frontend-design and web-design-guidelines, plus the Context7 MCP server."
   },
   "plugins": [
     {
@@ -33,6 +33,11 @@
       "skills": [
         "./.claude/skills/web-design-guidelines"
       ]
+    },
+    {
+      "name": "context7",
+      "description": "Context7 MCP server (upstash/context7, MIT): up-to-date, version-specific library docs.",
+      "source": "./plugins/context7"
     }
   ]
 }
