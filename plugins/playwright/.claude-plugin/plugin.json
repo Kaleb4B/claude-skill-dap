@@ -1,0 +1,19 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Microsoft Playwright MCP server: browser automation through structured accessibility snapshots.",
+  "author": {
+    "name": "Microsoft",
+    "url": "https://github.com/microsoft"
+  },
+  "homepage": "https://github.com/microsoft/playwright-mcp",
+  "repository": "https://github.com/microsoft/playwright-mcp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "browser",
+    "automation",
+    "playwright",
+    "mcp",
+    "testing"
+  ]
+}
