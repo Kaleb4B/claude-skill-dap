@@ -4,7 +4,7 @@
     "name": "kaleb4b"
   },
   "metadata": {
-    "description": "Claude Code skills (ponytail, frontend-design, web-design-guidelines, security-audit) and MCP servers (Context7, Playwright, GitHub)."
+    "description": "Claude Code skills (ponytail, frontend-design, web-design-guidelines, security-audit, karpathy-guidelines, superpowers) and MCP servers (Context7, Playwright, GitHub, WhatsApp)."
   },
   "plugins": [
     {
@@ -57,6 +57,27 @@
       "name": "github",
       "description": "GitHub MCP server (github/github-mcp-server, MIT): repos, issues, PRs and Actions. Needs GITHUB_PERSONAL_ACCESS_TOKEN.",
       "source": "./plugins/github"
+    },
+    {
+      "name": "whatsapp",
+      "description": "WhatsApp MCP server (lharries/whatsapp-mcp, MIT). Needs a local clone with the Go bridge running and WHATSAPP_MCP_DIR set.",
+      "source": "./plugins/whatsapp"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "Karpathy-inspired coding guidelines (multica-ai/andrej-karpathy-skills, MIT): think first, keep it simple, make surgical changes.",
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills"
+      }
+    },
+    {
+      "name": "superpowers",
+      "description": "Superpowers skills library (obra/superpowers, MIT): brainstorming, plans, TDD, systematic debugging, code review and subagent workflows.",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      }
     }
   ]
 }
